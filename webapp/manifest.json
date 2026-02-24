@@ -116,6 +116,7 @@
       "type": "XML",
       "async": true,
       "id": "App"
-    }
+    },
+    "supportedLanguages": ["en", "pt_BR"]
   }
 }
