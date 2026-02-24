@@ -1,0 +1,142 @@
+<mvc:View
+    controllerName="diogo.controller.View"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns:m="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns="sap.uxap"
+>
+    <ObjectPageLayout id="ObjectPageLayout" preserveHeaderStateOnScroll="true" upperCaseAnchorBar="false">
+
+        <headerContent>
+            <m:Avatar id="avatar" displaySize="L" src="https://avatars.githubusercontent.com/u/110328064?v=4"/>
+        </headerContent>
+
+        <headerTitle>
+            <ObjectPageDynamicHeaderTitle>
+                <heading>
+                    <m:Title text="Diogo Ferreira Alves" />
+                </heading>
+
+                <expandedContent>
+                    <m:Title text="Certified SAP ABAP HCM Developer" />
+                </expandedContent>
+            </ObjectPageDynamicHeaderTitle> 
+        </headerTitle>
+
+		<headerContent>
+			<m:FlexBox wrap="Wrap" fitContainer="true">
+				<l:VerticalLayout class="sapUiSmallMarginEnd">
+                    <m:ObjectStatus title="" text=""/>
+					<m:ObjectStatus title="Localization" text="São Paulo/SP - Brazil"/>
+					<m:ObjectStatus title="Phone" text="+55 11 94821-8885"/>
+					<m:ObjectStatus title="e-mail" text="ddfalves@gmail.com"/>
+				</l:VerticalLayout>
+			</m:FlexBox>
+		</headerContent>
+
+        <sections>
+			<ObjectPageSection titleUppercase="false" title="About Me">
+				<subSections>
+                    <ObjectPageSubSection>
+                        <l:VerticalLayout class="sapUiSmallMargin">
+                            <m:Text text="{i18n>text1}"/>
+                            <m:Text text="{i18n>text2}"/>
+                            <m:Text text="{i18n>text3}"/>
+                            <m:Text text="{i18n>text4}"/>
+                            <m:Text text="{i18n>text5}"/>
+                            <m:Text text="{i18n>text6}"/>
+                            <m:Text text="{i18n>text7}"/>
+                            <m:Text text="{i18n>text8}"/>
+                            <m:Text text="{i18n>text9}"/>
+                        </l:VerticalLayout>
+                    </ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection titleUppercase="false" title="Academic Background">
+				<subSections>
+                    <ObjectPageSubSection>
+                        <l:VerticalLayout class="sapUiSmallMargin">
+                            <m:Text text="{i18n>text10}"/>
+                            <m:Text text="{i18n>text11}"/>
+                        </l:VerticalLayout>
+                    </ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>                
+
+			<ObjectPageSection titleUppercase="false" title="Professional Background">
+				<subSections>
+                    <ObjectPageSubSection title="{i18n>text12}" titleUppercase="false">
+                        <l:VerticalLayout class="sapUiSmallMargin">
+                            <m:Text text="{i18n>text13}"/>
+                            <m:Text text="{i18n>text14}"/>
+                            <m:Text text="{i18n>text15}"/>
+                            <m:Text text="{i18n>text16}"/>
+                        </l:VerticalLayout>
+                    </ObjectPageSubSection>
+
+                    <ObjectPageSubSection title="{i18n>text17}" titleUppercase="false">
+                        <l:VerticalLayout class="sapUiSmallMargin">
+                            <m:Text text="{i18n>text18}"/>
+                            <m:Text text="{i18n>text19}"/>
+                            <m:Text text="{i18n>text20}"/>
+                            <m:Text text="{i18n>text21}"/>
+                        </l:VerticalLayout>
+                    </ObjectPageSubSection>     
+
+                    <ObjectPageSubSection title="{i18n>text22}" titleUppercase="false">
+                        <l:VerticalLayout class="sapUiSmallMargin">
+                            <m:Text text="{i18n>text23}"/>
+                            <m:Text text="{i18n>text24}"/>
+                            <m:Text text="{i18n>text25}"/>
+                            <m:Text text="{i18n>text26}"/>
+                        </l:VerticalLayout>
+                    </ObjectPageSubSection>    
+
+                    <ObjectPageSubSection title="{i18n>text27}" titleUppercase="false">
+                        <l:VerticalLayout class="sapUiSmallMargin">
+                            <m:Text text="{i18n>text28}"/>
+                            <m:Text text="{i18n>text29}"/>
+                            <m:Text text="{i18n>text30}"/>
+                            <m:Text text="{i18n>text31}"/>
+                        </l:VerticalLayout>
+                    </ObjectPageSubSection>                                           
+
+				</subSections>
+			</ObjectPageSection>    
+
+			<ObjectPageSection titleUppercase="false" title="Courses and Certifications">
+				<subSections>
+                    <ObjectPageSubSection>
+                        <l:VerticalLayout class="sapUiSmallMargin">
+                            <m:Text text="{i18n>text32}"/>
+                            <m:Text text="{i18n>text33}"/>
+                            <m:Text text="{i18n>text34}"/>
+                            <m:Text text="{i18n>text35}"/>
+                            <m:Text text="{i18n>text36}"/>
+                            <m:Text text="{i18n>text37}"/>
+                            <m:Text text="{i18n>text38}"/>
+                            <m:Text text="{i18n>text39}"/>
+                            <m:Text text="{i18n>text40}"/>
+                            <m:Text text="{i18n>text41}"/>
+                        </l:VerticalLayout>
+                    </ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>       
+
+			<ObjectPageSection titleUppercase="false" title="Languages">
+				<subSections>
+                    <ObjectPageSubSection>
+                        <l:VerticalLayout class="sapUiSmallMargin">
+                            <m:Text text="{i18n>text42}"/>
+                            <m:Text text="{i18n>text43}"/>
+                        </l:VerticalLayout>
+                    </ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>                                       
+
+        </sections>
+
+    </ObjectPageLayout>
+</mvc:View>
