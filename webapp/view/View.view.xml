@@ -84,6 +84,7 @@
                             <m:Text text="{i18n>text14}"/>
                             <m:Text text="{i18n>text15}"/>
                             <m:Text text="{i18n>text16}"/>
+                            <m:Text text="{i18n>text44}"/>
                         </l:VerticalLayout>
                     </ObjectPageSubSection>
 
